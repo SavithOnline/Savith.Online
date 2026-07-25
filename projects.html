@@ -1,457 +1,60 @@
 <!doctype html>
-<!-- saved from url=(0035)https://savith.dev/projects/ -->
-<html lang="en" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <meta name="generator" content="Eleventy v3.1.5" />
-
-    <title>Projects | Savith Dasanayaka</title>
-    <meta name="title" content="Projects" />
-
-    <meta name="fediverse:creator" content="@savith@phpc.social" />
-
-    <meta
-      name="description"
-      content="An incomplete list off all the public projects I&#39;ve worked on over the last years"
-    />
-    <meta
-      property="og:description"
-      content="An incomplete list off all the public projects I&#39;ve worked on over the last years"
-    />
-    <meta
-      property="twitter:description"
-      content="An incomplete list off all the public projects I&#39;ve worked on over the last years"
-    />
-
-    <meta
-      property="og:image"
-      content="https://savith.dev/assets/projects-545dea15-2b83-4902-8bad-595366cc964c.png"
-    />
-    <meta
-      property="twitter:image"
-      content="https://savith.dev/assets/projects-545dea15-2b83-4902-8bad-595366cc964c.png"
-    />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://savith.dev/projects/" />
-    <meta property="og:title" content="Projects" />
-
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:url"
-      content="https://savith.dev/projects/"
-    />
-    <meta property="twitter:title" content="Projects" />
-
-    <meta name="robots" content="index,follow" />
-    <meta
-      name="google-site-verification"
-      content="LIcRaaOJ4Pzt395oKRAn1KhZrIJZ11CWzoBEyNoOHS4"
-    />
-
-    <link rel="canonical" href="https://savith.dev/projects/" />
-    <link rel="author" href="https://savith.dev/humans.txt" />
-
-    <link rel="me" href="https://github.com/savith" />
-
-    <script
-      async=""
-      src="./assets/tracker.js"
-      id="fathom-script"
-    ></script>
-    <script type="application/ld+json">
-      {
-        "name": "Savith",
-"description": "Savith is a full stack developer based in Sri Lanka.",
-        "author": {
-          "@type": "Person",
-          "name": "Savith"
-        },
-        "@type": "WebSite",
-        "url": "https://savith.dev",
-        "image": "https://savith.dev/assets/images/avatar.jpg",
-        "headline": "Savith",
-        "sameAs": [
-          "https://phpc.social/@savith",
-          "https://github.com/savith"
-        ],
-        "@context": "http://schema.org"
-      }
-    </script>
-
-    <meta name="theme-color" content="#B5D1CC" />
-
-    <link rel="preconnect" href="https://stats.wnx.ch/" />
-    <link rel="dns-prefetch" href="https://stats.wnx.ch/" />
-
-    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-    <script>
-      (function (f, a, t, h, o, m) {
-        a[h] =
-          a[h] ||
-          function () {
-            (a[h].q = a[h].q || []).push(arguments);
-          };
-        ((o = f.createElement("script")),
-          (m = f.getElementsByTagName("script")[0]));
-        o.async = 1;
-        o.src = t;
-        o.id = "fathom-script";
-        m.parentNode.insertBefore(o, m);
-      })(document, window, "//stats.wnx.ch/tracker.js", "fathom");
-      fathom("set", "siteId", "BSSXI");
-      fathom("trackPageview");
-    </script>
-    <!-- / Fathom -->
-
-    <link rel="stylesheet" crossorigin="" href="./assets/style.css" />
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <!-- Search, browser, and social-sharing metadata. Keep production URLs in sync with the live domain. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Savith Dasanayaka</title>
+  <meta name="description" content="Open-source software, geospatial, machine-learning, and engineering projects by Savith Dasanayaka.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#B5D1CC">
+  <link rel="canonical" href="https://savith.online/projects.html">
+  <link rel="me" href="https://github.com/SavithOnline">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://savith.online/projects.html">
+  <meta property="og:title" content="Projects | Savith Dasanayaka">
+  <meta property="og:description" content="Open-source software, geospatial, machine-learning, and engineering projects by Savith Dasanayaka.">
+  <meta property="og:image" content="https://savith.online/assets/images/Savith.Online.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Projects | Savith Dasanayaka">
+  <meta name="twitter:description" content="Open-source software, geospatial, machine-learning, and engineering projects by Savith Dasanayaka.">
+  <meta name="twitter:image" content="https://savith.online/assets/images/Savith.Online.jpg">
+  <link rel="stylesheet" href="./assets/style.css">
   <style>html { overflow-y: scroll; }</style>
-  </head>
-  <body
-    class="bg-[#f3e5f5] text-slate-900 relative font-sans selection:text-[#160404] selection:bg-[#fef4ad]"
-  >
-    <a
-      class="absolute top-auto left-[-999px] overflow-hidden w-px h-px font-semibold bg-gray-900 text-gray-200 px-2 py-1 rounded shadow shadow-gray-500/20 ring-2 ring-red-500 ring-offset-2 ring-offset-red-100 focus:overflow-auto focus:w-auto focus:h-auto focus:top-5 focus:left-5 focus:z-50"
-      href="https://savith.dev/projects/#skip-content-target"
-    >
-      Skip to content ↓
-    </a>
-
-    <div class="container mx-auto max-w-2xl">
-      <header
-        class="mt-8 mb-24 md:flex justify-between items-center px-4 md:px-0"
-      >
-        <div class="font-medium">
-          <a
-            href="index.html"
-            class="inline-block -ml-2 px-2 py-1 rounded-lg font-semibold hover:bg-gray-100 transition"
-          >
-            Savith Dasanayaka
-          </a>
-        </div>
-
-        <nav class="text-sm text-slate-600 font-medium space-x-4">
-          <a href="about.html" class="underline hover:no-underline">About</a>
-          <a href="articles.html" class="underline hover:no-underline"
-            >Articles</a
-          >
-          <a href="projects.html" class="underline hover:no-underline"
-            >Projects</a
-          >
-                </nav>
-      </header>
-
-      <div id="skip-content-target" class="hidden" tabindex="-1"></div>
-      <main class="px-4 md:px-0">
-        <div class="prose mb-10">
-          <h1>Projects</h1>
-
-          <p>
-            As a programmer, I solve problems every day. I usually try to publish my solutions as open source software so others can benefit and build upon them or learn from them.
-          </p>
-        </div>
-
-        <dl class="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-4">
-          <a
-            href="https://github.com/SavithOnline/DeepLearn"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/DeepLearn.jpg"
-              loading="lazy"
-              alt="Image representing the DeepLearn project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">DeepLearn</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://github.com/SavithOnline/SimpleCode"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/SimpleCode.jpg"
-              loading="lazy"
-              alt="Image representing the SimpleCode project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">SimpleCode</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://github.com/SavithOnline/VideoWork"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/VideoWork.jpg"
-              loading="lazy"
-              alt="Image representing the VideoWork project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">VideoWork</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://github.com/SavithOnline/TimeLess"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/TimeLess.jpg"
-              loading="lazy"
-              alt="Image representing the sidecar-browsershot project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">TimeLess</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://github.com/savith/changelog-updater-action"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/DevSet.jpg"
-              loading="lazy"
-              alt="Image representing the changelog-updater-action project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">DevSet</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://github.com/savith/commonmark-markdown-renderer"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/CeyloneMaps.jpg"
-              loading="lazy"
-              alt="Image representing the commonmark-markdown-renderer project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">CeyloneMaps</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://github.com/savith/laravel-sends"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/CarnotEngine.jpg"
-              loading="lazy"
-              alt="Image representing the laravel-sends project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">CarnotEngine</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://3.screeenly.com/"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/MIcroEcon.jpg"
-              loading="lazy"
-              alt="Image representing the 3.screeenly.com project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">MIcroEcon</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-          <a
-            href="https://github.com/savith/laravel-stats"
-            class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"
-          >
-            <img
-              src="./assets/images/Savith.Online.jpg"
-              loading="lazy"
-              alt="Image representing the laravel-stats project"
-              class="rounded-lg border border-slate-200 shadow shadow-slate-100"
-            />
-
-            <dl class="mt-2 mb-1">
-              <dt class="text-slate-800 flex items-start gap-2">
-                <h2 class="font-semibold">Savith.Online</h2>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 text-yellow-500 shrink-0"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </dt>
-            </dl>
-          </a>
-        </dl>
-      </main>
-
-      <footer class="text-sm text-center mt-20 mb-8 px-4 md:px-0">
-        <nav class="mx-auto flex flex-col justify-center items-center gap-2">
-                  <div class="inline-flex flex-wrap text-center justify-center space-x-4 text-slate-600">
-            <a href="https://www.linkedin.com/in/savithonline/" class="underline hover:no-underline">LinkedIn</a>
-            <a href="https://x.com/SavithOnline" class="underline hover:no-underline">Twitter</a>
-            <a href="https://github.com/SavithOnline" class="underline hover:no-underline">GitHub</a>
-            <a href="https://www.instagram.com/savithonline/?hl=en" class="underline hover:no-underline">Instagram</a>
-            <a href="mailto:SavithOnline@gmail.com" class="underline hover:no-underline">Email</a>
-        </div>
-    </nav>
-        <div class="mt-3 text-xs text-slate-500">
-          &copy; 2026 Savith
-        </div>
-      </footer>
-    </div>
-
-    <script
-      defer=""
-      src="./assets/beacon.js"
-      integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=="
-      data-cf-beacon='{"version":"2024.11.0","token":"1e943190d18244159a7ac261df570747","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</head>
+<body class="bg-[#f3e5f5] text-slate-900 relative font-sans selection:text-[#160404] selection:bg-[#fef4ad]">
+  <a class="absolute top-auto left-[-999px] overflow-hidden w-px h-px font-semibold bg-gray-900 text-gray-200 px-2 py-1 rounded focus:overflow-auto focus:w-auto focus:h-auto focus:top-5 focus:left-5 focus:z-50" href="#main-content">Skip to content ↓</a>
+  <!-- The skip link above lets keyboard users bypass this repeated navigation. -->
+  <div class="container mx-auto max-w-2xl">
+    <!-- Shared site header and primary navigation. -->
+    <header class="mt-8 mb-24 md:flex justify-between items-center px-4 md:px-0">
+      <div class="font-medium">
+        <a href="index.html" class="inline-block -ml-2 px-2 py-1 rounded-lg font-semibold hover:bg-gray-100 transition">
+          Savith Dasanayaka
+        </a>
+      </div>
+      <nav aria-label="Primary" class="text-sm text-slate-600 font-medium space-x-4">
+        <a href="about.html" class="underline hover:no-underline">About</a>
+        <a href="articles.html" class="underline hover:no-underline">Articles</a>
+        <a href="projects.html" aria-current="page" class="underline hover:no-underline">Projects</a>
+      </nav>
+    </header>
+    <!-- Responsive project-card grid. Each entire card links to its repository. -->
+    <main id="main-content" class="px-4 md:px-0" tabindex="-1">
+      <div class="prose mb-10"><h1>Projects</h1><p>I publish projects and experiments so others can use them, build on them, or learn from them.</p></div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-4">
+        <a href="https://github.com/SavithOnline/DeepLearn" class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"><img src="./assets/images/DeepLearn.jpg" loading="lazy" alt="" class="rounded-lg border border-slate-200 shadow shadow-slate-100"><h2 class="font-semibold mt-2 mb-1">DeepLearn</h2></a>
+        <a href="https://github.com/SavithOnline/VideoWork" class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"><img src="./assets/images/VideoWork.jpg" loading="lazy" alt="" class="rounded-lg border border-slate-200 shadow shadow-slate-100"><h2 class="font-semibold mt-2 mb-1">VideoWork</h2></a>
+        <a href="https://github.com/SavithOnline/Savith.Online" class="block transition rounded-lg -mx-3 p-3 border-2 border-transparent hover:bg-slate-50/25 hover:border-slate-300 hover:border-dashed"><img src="./assets/images/Savith.Online.jpg" loading="lazy" alt="" class="rounded-lg border border-slate-200 shadow shadow-slate-100"><h2 class="font-semibold mt-2 mb-1">Savith.Online</h2></a>
+      </div>
+    </main>
+    <!-- Link to the full GitHub profile and site ownership information. -->
+    <footer class="text-sm text-center mt-20 mb-8 px-4 md:px-0">
+      <p>
+        <a href="https://github.com/SavithOnline" class="underline">More on GitHub</a>
+      </p>
+      <div class="mt-3 text-xs text-slate-500">&copy; 2026 Savith Dasanayaka</div>
+    </footer>
+  </div>
+</body>
 </html>
-
-

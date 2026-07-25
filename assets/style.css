@@ -1,3 +1,14 @@
+/*
+ * Stylesheet map
+ * properties: generated fallback values for utility custom properties
+ * theme:      shared colors, spacing, type, and animation tokens
+ * base:       browser normalization and accessible element defaults
+ * components: reusable patterns such as long-form article typography
+ * utilities:  single-purpose classes applied directly in the HTML
+ *
+ * Most rules below are generated utility CSS. Prefer changing HTML classes
+ * (or the original Tailwind source, if one is added) instead of isolated rules.
+ */
 @layer properties {
   @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or
     ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {

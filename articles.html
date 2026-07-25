@@ -1,468 +1,62 @@
 <!doctype html>
-<!-- saved from url=(0032)https://savith.dev/posts/ -->
-<html lang="en" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <meta name="generator" content="Eleventy v3.1.5" />
-
-    <title>Articles | Savith Dasanayaka </title>
-    <meta name="title" content="Articles" />
-
-    <meta name="fediverse:creator" content="@savith@phpc.social" />
-
-    <meta
-      name="description"
-      content="Articles on programming, software development and tools I&#39;m using day to day."
-    />
-    <meta
-      property="og:description"
-      content="Articles on programming, software development and tools I&#39;m using day to day."
-    />
-    <meta
-      property="twitter:description"
-      content="Articles on programming, software development and tools I&#39;m using day to day."
-    />
-
-    <meta
-      property="og:image"
-      content="https://savith.dev/assets/articles-9dadd02f-1b48-4962-ab17-db9a7266890b.png"
-    />
-    <meta
-      property="twitter:image"
-      content="https://savith.dev/assets/articles-9dadd02f-1b48-4962-ab17-db9a7266890b.png"
-    />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://savith.dev/posts/" />
-    <meta property="og:title" content="Articles" />
-
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://savith.dev/posts/" />
-    <meta property="twitter:title" content="Articles" />
-
-    <meta name="robots" content="index,follow" />
-    <meta
-      name="google-site-verification"
-      content="LIcRaaOJ4Pzt395oKRAn1KhZrIJZ11CWzoBEyNoOHS4"
-    />
-
-    <link rel="canonical" href="https://savith.dev/posts/" />
-    <link rel="author" href="https://savith.dev/humans.txt" />
-
-    <link rel="me" href="https://github.com/savith" />
-
-    <script
-      async=""
-      src="./assets/tracker.js"
-      id="fathom-script"
-    ></script>
-    <script type="application/ld+json">
-      {
-        "name": "Savith",
-"description": "Savith is a full stack developer based in Sri Lanka.",
-        "author": {
-          "@type": "Person",
-          "name": "Savith"
-        },
-        "@type": "WebSite",
-        "url": "https://savith.dev",
-        "image": "https://savith.dev/assets/images/avatar.jpg",
-        "headline": "Savith",
-        "sameAs": [
-          "https://phpc.social/@savith",
-          "https://github.com/savith"
-        ],
-        "@context": "http://schema.org"
-      }
-    </script>
-
-    <meta name="theme-color" content="#B5D1CC" />
-
-    <link rel="preconnect" href="https://stats.wnx.ch/" />
-    <link rel="dns-prefetch" href="https://stats.wnx.ch/" />
-
-    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-    <script>
-      (function (f, a, t, h, o, m) {
-        a[h] =
-          a[h] ||
-          function () {
-            (a[h].q = a[h].q || []).push(arguments);
-          };
-        ((o = f.createElement("script")),
-          (m = f.getElementsByTagName("script")[0]));
-        o.async = 1;
-        o.src = t;
-        o.id = "fathom-script";
-        m.parentNode.insertBefore(o, m);
-      })(document, window, "//stats.wnx.ch/tracker.js", "fathom");
-      fathom("set", "siteId", "BSSXI");
-      fathom("trackPageview");
-    </script>
-    <!-- / Fathom -->
-
-    <link
-      rel="stylesheet"
-      crossorigin=""
-      href="./assets/style.css"
-    />
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <!-- Search, browser, and social-sharing metadata. Keep production URLs in sync with the live domain. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Articles | Savith Dasanayaka</title>
+  <meta name="description" content="Articles by Savith Dasanayaka about programming, geospatial technology, mathematics, and engineering.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#B5D1CC">
+  <link rel="canonical" href="https://savith.online/articles.html">
+  <link rel="me" href="https://github.com/SavithOnline">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://savith.online/articles.html">
+  <meta property="og:title" content="Articles | Savith Dasanayaka">
+  <meta property="og:description" content="Articles about programming, geospatial technology, mathematics, and engineering.">
+  <meta property="og:image" content="https://savith.online/assets/images/Savith.Online.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Articles | Savith Dasanayaka">
+  <meta name="twitter:description" content="Articles about programming, geospatial technology, mathematics, and engineering.">
+  <meta name="twitter:image" content="https://savith.online/assets/images/Savith.Online.jpg">
+  <link rel="stylesheet" href="./assets/style.css">
   <style>html { overflow-y: scroll; }</style>
-  </head>
-  <body
-    class="bg-[#f3e5f5] text-slate-900 relative font-sans selection:text-[#160404] selection:bg-[#fef4ad]"
-  >
-    <a
-      class="absolute top-auto left-[-999px] overflow-hidden w-px h-px font-semibold bg-gray-900 text-gray-200 px-2 py-1 rounded shadow shadow-gray-500/20 ring-2 ring-red-500 ring-offset-2 ring-offset-red-100 focus:overflow-auto focus:w-auto focus:h-auto focus:top-5 focus:left-5 focus:z-50"
-      href="https://savith.dev/posts/#skip-content-target"
-    >
-      Skip to content ↓
-    </a>
-
-    <div class="container mx-auto max-w-2xl">
-      <header
-        class="mt-8 mb-24 md:flex justify-between items-center px-4 md:px-0"
-      >
-        <div class="font-medium">
-          <a
-            href="index.html"
-            class="inline-block -ml-2 px-2 py-1 rounded-lg font-semibold hover:bg-gray-100 transition"
-          >
-            Savith Dasanayaka
-          </a>
-        </div>
-
-        <nav class="text-sm text-slate-600 font-medium space-x-4">
-          <a href="about.html" class="underline hover:no-underline">About</a>
-          <a href="articles.html" class="underline hover:no-underline"
-            >Articles</a
-          >
-          <a href="projects.html" class="underline hover:no-underline"
-            >Projects</a
-          >
-                </nav>
-      </header>
-
-      <div id="skip-content-target" class="hidden" tabindex="-1"></div>
-      <main class="px-4 md:px-0">
-        <div class="prose mb-10">
-          <h1>Articles</h1>
-        </div>
-
-        <section>
-          <h2 class="mb-3 text-base font-black">2026</h2>
-
-          <div class="mb-12">
-            <article
-              class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed"
-            >
-              <h4>
-                <a
-                  href="articles/show-remaining-characters-filament.html"
-                  aria-label="Show Remaining Characters in a Filament Text Input published on Sat Apr 04 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                  class="text-gray-800 font-normal no-underline hover:underline"
-                >Show Remaining Characters in a Filament Text Input</a>
-              </h4>
-
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd>
-                    <time
-                      aria-label="Published on Sat Apr 04 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                      class="text-gray-600 text-sm font-medium tabular-nums"
-                      title="Sat Apr 04 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                      datetime="Sat Apr 04 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                    >
-                      2026-04-04
-                    </time>
-                  </dd>
-                </dl>
-              </div>
-            </article>
-
-            <article
-              class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed"
-            >
-              <h4>
-                <a
-                  href="https://savith.dev/posts/2026/03/12/laracon-eu-2026-recap/"
-                  aria-label="Laracon EU 2026 Recap published on Thu Mar 12 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                  class="text-gray-800 font-normal no-underline hover:underline"
-                >Laracon EU 2026 Recap</a>
-              </h4>
-
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd>
-                    <time
-                      aria-label="Published on Thu Mar 12 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                      class="text-gray-600 text-sm font-medium tabular-nums"
-                      title="Thu Mar 12 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                      datetime="Thu Mar 12 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                    >
-                      2026-03-12
-                    </time>
-                  </dd>
-                </dl>
-              </div>
-            </article>
-
-            <article
-              class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed"
-            >
-              <h4>
-                <a
-                  href="https://savith.dev/posts/2026/03/05/podcasts-2026/"
-                  aria-label="Podcasts 2026 published on Thu Mar 05 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                  class="text-gray-800 font-normal no-underline hover:underline"
-                >Podcasts 2026</a>
-              </h4>
-
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd>
-                    <time
-                      aria-label="Published on Thu Mar 05 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                      class="text-gray-600 text-sm font-medium tabular-nums"
-                      title="Thu Mar 05 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                      datetime="Thu Mar 05 2026 21:00:00 GMT+0000 (Coordinated Universal Time)"
-                    >
-                      2026-03-05
-                    </time>
-                  </dd>
-                </dl>
-              </div>
-            </article>
-
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Exploring the New Features of HTMX 2.0</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-03-02</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Why SQLite is All You Need for Most Web Apps</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-02-28</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Understanding PHP 8.5's Pattern Matching</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-02-25</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">A Deep Dive into Rust for Node.js Developers</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-02-20</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Optimizing Next.js Applications for Edge Computing</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-02-15</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">The Demise of Third-Party Cookies: What It Means</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-02-12</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Getting Started with the WebGPU API</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-02-08</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Building Resilient Microservices with Go</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-02-04</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Laravel 13: Top Features to Look Forward To</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-29</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Deno vs Node in 2026: Which Should You Choose?</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-25</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">An Introduction to Quantum Computing for Programmers</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-21</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Mastering Vue 4 Reactivity</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-16</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Deploying Serverless Applications with AWS SAM</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-12</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">The Ultimate Guide to GitHub Actions for CI/CD</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-09</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Demystifying CSS Container Queries</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-06</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">Building a Decentralized App (dApp) with Web3.js</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-04</time></dd>
-                </dl>
-              </div>
-            </article>
-            <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition block border-2 border-transparent hover:border-slate-300 hover:border-dashed">
-              <h4>
-                <a href="#" class="text-gray-800 font-normal no-underline hover:underline">State Management in Modern Web Frameworks</a>
-              </h4>
-              <div class="mt-1 mb-6 sm:m-0 shrink-0">
-                <dl>
-                  <dt class="sr-only">Published at</dt>
-                  <dd><time class="text-gray-600 text-sm font-medium tabular-nums">2026-01-02</time></dd>
-                </dl>
-              </div>
-            </article>
-          </div>
-        </section>
-      </main>
-
-      <footer class="text-sm text-center mt-20 mb-8 px-4 md:px-0">
-        <nav class="mx-auto flex flex-col justify-center items-center gap-2">
-                  <div class="inline-flex flex-wrap text-center justify-center space-x-4 text-slate-600">
-            <a href="https://www.linkedin.com/in/savithonline/" class="underline hover:no-underline">LinkedIn</a>
-            <a href="https://x.com/SavithOnline" class="underline hover:no-underline">Twitter</a>
-            <a href="https://github.com/SavithOnline" class="underline hover:no-underline">GitHub</a>
-            <a href="https://www.instagram.com/savithonline/?hl=en" class="underline hover:no-underline">Instagram</a>
-            <a href="mailto:SavithOnline@gmail.com" class="underline hover:no-underline">Email</a>
-        </div>
-    </nav>
-        <div class="mt-3 text-xs text-slate-500">
-          &copy; 2026 Savith
-        </div>
-      </footer>
-    </div>
-
-    <script
-      defer=""
-      src="./assets/beacon.js"
-      integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=="
-      data-cf-beacon='{"version":"2024.11.0","token":"1e943190d18244159a7ac261df570747","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</head>
+<body class="bg-[#f3e5f5] text-slate-900 relative font-sans selection:text-[#160404] selection:bg-[#fef4ad]">
+  <a class="absolute top-auto left-[-999px] overflow-hidden w-px h-px font-semibold bg-gray-900 text-gray-200 px-2 py-1 rounded focus:overflow-auto focus:w-auto focus:h-auto focus:top-5 focus:left-5 focus:z-50" href="#main-content">Skip to content ↓</a>
+  <!-- The skip link above lets keyboard users bypass this repeated navigation. -->
+  <div class="container mx-auto max-w-2xl">
+    <!-- Shared site header and primary navigation. -->
+    <header class="mt-8 mb-24 md:flex justify-between items-center px-4 md:px-0">
+      <div class="font-medium">
+        <a href="index.html" class="inline-block -ml-2 px-2 py-1 rounded-lg font-semibold hover:bg-gray-100 transition">
+          Savith Dasanayaka
+        </a>
+      </div>
+      <nav aria-label="Primary" class="text-sm text-slate-600 font-medium space-x-4">
+        <a href="about.html" class="underline hover:no-underline">About</a>
+        <a href="articles.html" aria-current="page" class="underline hover:no-underline">Articles</a>
+        <a href="projects.html" class="underline hover:no-underline">Projects</a>
+      </nav>
+    </header>
+    <!-- Article archive. Group future entries by year using additional labelled sections. -->
+    <main id="main-content" class="px-4 md:px-0" tabindex="-1">
+      <div class="prose mb-10"><h1>Articles</h1></div>
+      <section aria-labelledby="articles-2026">
+        <h2 id="articles-2026" class="mb-3 text-base font-black">2026</h2>
+        <article class="md:flex justify-between -mx-3 p-3 mb-1 rounded-lg hover:bg-slate-50/25 transition border-2 border-transparent hover:border-slate-300 hover:border-dashed">
+          <h3><a href="articles/show-remaining-characters-filament.html" class="text-gray-800 font-normal no-underline hover:underline">Show Remaining Characters in a Filament Text Input</a></h3>
+          <time datetime="2026-04-04" class="text-gray-600 text-sm font-medium tabular-nums">2026-04-04</time>
+        </article>
+      </section>
+    </main>
+    <!-- Archive summary and site ownership information. -->
+    <footer class="text-sm text-center mt-20 mb-8 px-4 md:px-0">
+      <p>
+        <a href="mailto:SavithOnline@gmail.com" class="underline">SavithOnline@gmail.com</a>
+      </p>
+      <div class="mt-3 text-xs text-slate-500">&copy; 2026 Savith Dasanayaka</div>
+    </footer>
+  </div>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
