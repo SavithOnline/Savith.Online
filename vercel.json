@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/Piliyandala",
+      "destination": "https://piliyandala.vercel.app/"
+    },
+    {
+      "source": "/Piliyandala/:path*",
+      "destination": "https://piliyandala.vercel.app/:path*"
+    }
+  ]
+}
