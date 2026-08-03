@@ -12,7 +12,6 @@ A simple static site, no build step or framework:
 - `articles.html` - writing, with individual posts under `articles/`
 - `assets/` - stylesheet and images
 
-Hosted on GitHub Pages, with the `CNAME` file pointing it at the custom domain.
 
 ## Running locally
 
