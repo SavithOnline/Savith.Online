@@ -12,5 +12,5 @@ A simple static site, no build step or framework:
 - `articles.html` - writing, with individual posts under `articles/`
 - `assets/` - stylesheet and images
 
-(this is Just the Skelton)
+(this is Just the skeleton)
 
