@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/Piliyandala",
-      "destination": "https://piliyandala.vercel.app/"
+      "destination": "https://piliyandala.vercel.app/Piliyandala"
     },
     {
       "source": "/Piliyandala/:path*",
-      "destination": "https://piliyandala.vercel.app/:path*"
+      "destination": "https://piliyandala.vercel.app/Piliyandala/:path*"
     }
   ]
 }
