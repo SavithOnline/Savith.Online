@@ -3,15 +3,15 @@
   "rewrites": [
     {
       "source": "/Piliyandala",
-      "destination": "https://piliyandala.vercel.app/Piliyandala"
+      "destination": "https://piliyandala.savith.online/Piliyandala"
     },
     {
       "source": "/Piliyandala/",
-      "destination": "https://piliyandala.vercel.app/Piliyandala/"
+      "destination": "https://piliyandala.savith.online/Piliyandala/"
     },
     {
       "source": "/Piliyandala/:path*",
-      "destination": "https://piliyandala.vercel.app/Piliyandala/:path*"
+      "destination": "https://piliyandala.savith.online/Piliyandala/:path*"
     }
   ]
 }
