@@ -444,15 +444,15 @@
     }
   }
   .prose a {
-    color: var(--color-blue-600) !important;
+    color: var(--color-blue-400) !important;
     font-weight: 400 !important;
   }
   .prose a:hover {
     text-decoration: none;
-    color: var(--color-blue-600) !important;
+    color: var(--color-blue-400) !important;
   }
   .prose a:visited {
-    color: var(--color-purple-600);
+    color: var(--color-purple-400);
   }
   .prose code {
     word-break: break-all;
@@ -2770,21 +2770,65 @@
     background-position: 100%;
   }
 }
-@keyframes bg-color-cycle {
-  0% {
-    background-color: #B5D1CC !important;
-  }
-  33% {
-    background-color: #D1B0B2 !important;
-  }
-  66% {
-    background-color: #FFB2F0 !important;
-  }
-  100% {
-    background-color: #B5D1CC !important;
-  }
-}
 
+/*
+ * Dark page background. The utility classes in the HTML were picked for a
+ * light page, so their text, border, and hover colors are lightened here.
+ * Unlayered rules win over everything inside @layer, so no !important needed.
+ */
+html {
+  color-scheme: dark;
+}
 body {
-  animation: bg-color-cycle 15s infinite;
+  background-color: #151515;
+}
+.text-slate-900 {
+  color: var(--color-gray-100);
+}
+.text-slate-800,
+.text-gray-800 {
+  color: var(--color-gray-200);
+}
+.text-slate-600,
+.text-gray-600 {
+  color: var(--color-gray-300);
+}
+.text-slate-500,
+.text-gray-500 {
+  color: oklch(70.7% 0.022 261.325);
+}
+.border-slate-200 {
+  border-color: oklch(100% 0 0 / 0.12);
+}
+.shadow-slate-100 {
+  --tw-shadow-color: oklch(0% 0 0 / 0.4);
+}
+.prose {
+  --tw-prose-body: var(--tw-prose-invert-body);
+  --tw-prose-headings: var(--tw-prose-invert-headings);
+  --tw-prose-lead: var(--tw-prose-invert-lead);
+  --tw-prose-links: var(--tw-prose-invert-links);
+  --tw-prose-bold: var(--tw-prose-invert-bold);
+  --tw-prose-counters: var(--tw-prose-invert-counters);
+  --tw-prose-bullets: var(--tw-prose-invert-bullets);
+  --tw-prose-hr: var(--tw-prose-invert-hr);
+  --tw-prose-quotes: var(--tw-prose-invert-quotes);
+  --tw-prose-quote-borders: var(--tw-prose-invert-quote-borders);
+  --tw-prose-captions: var(--tw-prose-invert-captions);
+  --tw-prose-kbd: var(--tw-prose-invert-kbd);
+  --tw-prose-kbd-shadows: var(--tw-prose-invert-kbd-shadows);
+  --tw-prose-code: var(--tw-prose-invert-code);
+  --tw-prose-pre-code: var(--tw-prose-invert-pre-code);
+  --tw-prose-pre-bg: var(--tw-prose-invert-pre-bg);
+  --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
+  --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
+}
+@media (hover: hover) {
+  .hover\:bg-gray-100:hover,
+  .hover\:bg-slate-50\/25:hover {
+    background-color: oklch(100% 0 0 / 0.08);
+  }
+  .hover\:border-slate-300:hover {
+    border-color: var(--color-gray-600);
+  }
 }
